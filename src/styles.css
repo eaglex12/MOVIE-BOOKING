@@ -1,0 +1,133 @@
+/* Reset styles to remove default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the body background color */
+  body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Set the container styles */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Set the header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .header a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Set the show list styles */
+  .show-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .show-item {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .show-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .show-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .show-item h2 {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .show-item p {
+    margin: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Set the show summary styles */
+  .show-summary {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .show-summary h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .show-summary p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .show-summary button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .show-summary button:hover {
+    background-color: #444;
+  }
+  
+  /* Set the booking form styles */
+  .booking-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(217, 247, 22, 0.859);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  
